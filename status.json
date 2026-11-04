@@ -1,6 +1,6 @@
 {
- "generatedAtMs": 1793755627407,
- "now": "2026-11-04 09:27:07",
+ "generatedAtMs": 1793755967015,
+ "now": "2026-11-04 09:32:47",
  "tz": "台北時間 (UTC+8)",
  "thresholds": {
   "workingSec": 120,
@@ -14,12 +14,12 @@
    "zone": "助理",
    "color": "#ef4444",
    "shape": "blob",
-   "status": "recent",
-   "statusLabel": "剛忙完",
-   "lastActiveMs": 1793754903325,
-   "lastActive": "11/04 09:15",
-   "msgsToday": 24,
-   "msgsLastHour": 24
+   "status": "working",
+   "statusLabel": "工作中",
+   "lastActiveMs": 1793755953124,
+   "lastActive": "11/04 09:32",
+   "msgsToday": 29,
+   "msgsLastHour": 29
   },
   {
    "id": "10727d28-8a3d-43b5-8a54-f491172d0ae2",
@@ -79,12 +79,12 @@
    "zone": "理財/電商",
    "color": "#22c55e",
    "shape": "blob",
-   "status": "recent",
-   "statusLabel": "剛忙完",
-   "lastActiveMs": 1793754524460,
-   "lastActive": "11/04 09:08",
-   "msgsToday": 65,
-   "msgsLastHour": 23
+   "status": "working",
+   "statusLabel": "工作中",
+   "lastActiveMs": 1793755936568,
+   "lastActive": "11/04 09:32",
+   "msgsToday": 69,
+   "msgsLastHour": 27
   },
   {
    "id": "62c84820-6056-475a-a8c3-fda4e7067f04",

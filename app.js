@@ -5,7 +5,7 @@ import { CSS2DRenderer, CSS2DObject } from 'three/addons/CSS2DRenderer.js';
 const POLL_MS = 30000;
 // 狀態資料：status 分支上的 status.json（不會觸發 Pages 重建）；失敗時退回同站的 ./status.json
 const SOURCES = ['https://raw.githubusercontent.com/chanchantoby/grok-office/status/status.json', './status.json'];
-const STALE_MS = 5 * 60 * 1000;
+const STALE_MS = 10 * 60 * 1000;  // raw.githubusercontent 快取 5 分鐘 + 心跳 4 分鐘
 const ZONES = [
   { name: '助理',     cx: -7.5, cz: 3.2, w: 9, d: 6, color: 0x6d5bd0, desks: [-10.3, -7.5, -4.7] },
   { name: '內容/影音', cx: 1.6,  cz: 3.2, w: 6.4, d: 6, color: 0x2f7fd8, desks: [0.2, 3.0] },
