@@ -10,7 +10,7 @@ const ZONES = [
   { name: '助理',     cx: -7.5, cz: 3.2, w: 9, d: 6, color: 0x6d5bd0, desks: [-10.3, -7.5, -4.7] },
   { name: '內容/影音', cx: 1.6,  cz: 3.2, w: 6.4, d: 6, color: 0x2f7fd8, desks: [0.2, 3.0] },
   { name: '理財',     cx: 8.6,  cz: 3.2, w: 6.4, d: 6, color: 0x2fa36b, desks: [8.6, 7.2, 10.0] },
-  { name: '資訊/新聞', cx: 1.2,  cz: -3.6, w: 4.8, d: 4.6, color: 0x0e7490, desks: [0.0, 2.4] },
+  { name: '資訊/新聞', cx: 1.2,  cz: -3.6, w: 4.8, d: 4.6, color: 0x0e7490, desks: [0.0, 2.4], label: [3.0, -6.3] },
   { name: '其他',     cx: 10.0, cz: -2.4, w: 5.0, d: 4.0, color: 0x6b7280, desks: [8.8, 11.2] },
 ];
 
@@ -100,7 +100,7 @@ const rugL = box(5, 0.03, 3.5, 0x3d4560, 6.5, 0.02, -6.3);
 function drawZone(z) {
   if (z.drawn) return; z.drawn = true;
   box(z.w, 0.04, z.d, z.color, z.cx, 0.02, z.cz, scene, { roughness: 1 });
-  const holder = new THREE.Object3D(); holder.position.set(z.cx, 0.1, z.cz + z.d / 2 + 0.5); scene.add(holder);
+  const holder = new THREE.Object3D(); if (z.label) holder.position.set(z.label[0], 0.1, z.label[1]); else holder.position.set(z.cx, 0.1, z.cz + z.d / 2 + 0.5); scene.add(holder);
   label(z.name, 'zone-label', holder);
 }
 
