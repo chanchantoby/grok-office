@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grok Bot 辦公室</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/addons/" } }
+</script>
+</head>
+<body>
+<div id="scene"></div>
+<header id="hud">
+  <div class="title">Grok Bot 辦公室</div>
+  <div id="summary">載入中…</div>
+</header>
+<div id="legend">
+  <span><i class="dot working"></i>工作中（2 分鐘內有動靜）</span>
+  <span><i class="dot recent"></i>剛忙完（30 分鐘內）</span>
+  <span><i class="dot idle"></i>待命</span>
+</div>
+<aside id="panel" class="hidden">
+  <button id="close" aria-label="關閉">×</button>
+  <div id="panel-body"></div>
+</aside>
+<footer id="foot">點一下角色看詳情 · 拖曳旋轉、滾輪縮放 · 每 30 秒讀取一次（資料約 1–5 分鐘延遲）</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

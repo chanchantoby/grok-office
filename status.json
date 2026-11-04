@@ -1,0 +1,103 @@
+{
+ "generatedAtMs": 1793755627407,
+ "now": "2026-11-04 09:27:07",
+ "tz": "台北時間 (UTC+8)",
+ "thresholds": {
+  "workingSec": 120,
+  "pendingSec": 900,
+  "recentSec": 1800
+ },
+ "agents": [
+  {
+   "id": "e77055d9-87ba-42d0-9a74-596b5fa59bb5",
+   "name": "疑難雜症",
+   "zone": "助理",
+   "color": "#ef4444",
+   "shape": "blob",
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1793754903325,
+   "lastActive": "11/04 09:15",
+   "msgsToday": 24,
+   "msgsLastHour": 24
+  },
+  {
+   "id": "10727d28-8a3d-43b5-8a54-f491172d0ae2",
+   "name": "一對一小助理",
+   "zone": "助理",
+   "color": "#374151",
+   "shape": "blob",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1793682891958,
+   "lastActive": "11/03 13:14",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "0ebbe917-60e5-4c12-85ad-dcf0252553d2",
+   "name": "小饅頭",
+   "zone": "助理",
+   "color": "#f3d9a4",
+   "shape": "pumpkin",
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1793754462566,
+   "lastActive": "11/04 09:07",
+   "msgsToday": 20,
+   "msgsLastHour": 2
+  },
+  {
+   "id": "23fd5827-c81d-47e8-be44-6f0c806beb20",
+   "name": "影片標題流量調查",
+   "zone": "內容/影音",
+   "color": "#8b5cf6",
+   "shape": "pumpkin",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1793619196651,
+   "lastActive": "11/02 19:33",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "1a252376-fba8-4cc7-912d-32af87ca04f6",
+   "name": "網站製作",
+   "zone": "內容/影音",
+   "color": "#facc15",
+   "shape": "clover",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1793634890600,
+   "lastActive": "11/02 23:54",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "d8337939-7a00-40a9-8032-18a381c538b9",
+   "name": "毛毛股市",
+   "zone": "理財/電商",
+   "color": "#22c55e",
+   "shape": "blob",
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1793754524460,
+   "lastActive": "11/04 09:08",
+   "msgsToday": 65,
+   "msgsLastHour": 23
+  },
+  {
+   "id": "62c84820-6056-475a-a8c3-fda4e7067f04",
+   "name": "蝦皮分潤助手",
+   "zone": "理財/電商",
+   "color": "#f97316",
+   "shape": "blob",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1793467427148,
+   "lastActive": "11/01 01:23",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  }
+ ]
+}
