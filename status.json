@@ -1,6 +1,6 @@
 {
- "generatedAtMs": 1793757548001,
- "now": "2026-11-04 09:59:08",
+ "generatedAtMs": 1793757604875,
+ "now": "2026-11-04 10:00:04",
  "tz": "台北時間 (UTC+8)",
  "thresholds": {
   "workingSec": 120,
@@ -14,12 +14,12 @@
    "zone": "助理",
    "color": "#ef4444",
    "shape": "blob",
-   "status": "recent",
-   "statusLabel": "剛忙完",
-   "lastActiveMs": 1793756471928,
-   "lastActive": "11/04 09:41",
-   "msgsToday": 38,
-   "msgsLastHour": 27
+   "status": "working",
+   "statusLabel": "工作中",
+   "lastActiveMs": 1793757580608,
+   "lastActive": "11/04 09:59",
+   "msgsToday": 48,
+   "msgsLastHour": 37
   },
   {
    "id": "10727d28-8a3d-43b5-8a54-f491172d0ae2",
@@ -76,28 +76,15 @@
   {
    "id": "d8337939-7a00-40a9-8032-18a381c538b9",
    "name": "毛毛股市",
-   "zone": "理財/電商",
+   "zone": "理財",
    "color": "#22c55e",
    "shape": "blob",
-   "status": "recent",
-   "statusLabel": "剛忙完",
-   "lastActiveMs": 1793756638600,
-   "lastActive": "11/04 09:43",
-   "msgsToday": 79,
-   "msgsLastHour": 23
-  },
-  {
-   "id": "62c84820-6056-475a-a8c3-fda4e7067f04",
-   "name": "蝦皮分潤助手",
-   "zone": "理財/電商",
-   "color": "#f97316",
-   "shape": "blob",
-   "status": "idle",
-   "statusLabel": "待命",
-   "lastActiveMs": 1793467427148,
-   "lastActive": "11/01 01:23",
-   "msgsToday": 0,
-   "msgsLastHour": 0
+   "status": "working",
+   "statusLabel": "工作中",
+   "lastActiveMs": 1793757562547,
+   "lastActive": "11/04 09:59",
+   "msgsToday": 81,
+   "msgsLastHour": 25
   },
   {
    "id": "1d7a5205-b28c-4c2f-a711-90b63ffa19a3",
@@ -105,8 +92,8 @@
    "zone": "資訊/新聞",
    "color": "#06b6d4",
    "shape": "blob",
-   "status": "recent",
-   "statusLabel": "剛忙完",
+   "status": "idle",
+   "statusLabel": "待命",
    "lastActiveMs": 1793755795046,
    "lastActive": "11/04 09:29",
    "msgsToday": 14,
