@@ -1,6 +1,6 @@
 {
- "generatedAtMs": 1793755967015,
- "now": "2026-11-04 09:32:47",
+ "generatedAtMs": 1793757548001,
+ "now": "2026-11-04 09:59:08",
  "tz": "台北時間 (UTC+8)",
  "thresholds": {
   "workingSec": 120,
@@ -14,12 +14,12 @@
    "zone": "助理",
    "color": "#ef4444",
    "shape": "blob",
-   "status": "working",
-   "statusLabel": "工作中",
-   "lastActiveMs": 1793755953124,
-   "lastActive": "11/04 09:32",
-   "msgsToday": 29,
-   "msgsLastHour": 29
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1793756471928,
+   "lastActive": "11/04 09:41",
+   "msgsToday": 38,
+   "msgsLastHour": 27
   },
   {
    "id": "10727d28-8a3d-43b5-8a54-f491172d0ae2",
@@ -40,8 +40,8 @@
    "zone": "助理",
    "color": "#f3d9a4",
    "shape": "pumpkin",
-   "status": "recent",
-   "statusLabel": "剛忙完",
+   "status": "idle",
+   "statusLabel": "待命",
    "lastActiveMs": 1793754462566,
    "lastActive": "11/04 09:07",
    "msgsToday": 20,
@@ -66,12 +66,12 @@
    "zone": "內容/影音",
    "color": "#facc15",
    "shape": "clover",
-   "status": "idle",
-   "statusLabel": "待命",
-   "lastActiveMs": 1793634890600,
-   "lastActive": "11/02 23:54",
-   "msgsToday": 0,
-   "msgsLastHour": 0
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1793756483770,
+   "lastActive": "11/04 09:41",
+   "msgsToday": 2,
+   "msgsLastHour": 2
   },
   {
    "id": "d8337939-7a00-40a9-8032-18a381c538b9",
@@ -79,12 +79,12 @@
    "zone": "理財/電商",
    "color": "#22c55e",
    "shape": "blob",
-   "status": "working",
-   "statusLabel": "工作中",
-   "lastActiveMs": 1793755936568,
-   "lastActive": "11/04 09:32",
-   "msgsToday": 69,
-   "msgsLastHour": 27
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1793756638600,
+   "lastActive": "11/04 09:43",
+   "msgsToday": 79,
+   "msgsLastHour": 23
   },
   {
    "id": "62c84820-6056-475a-a8c3-fda4e7067f04",
@@ -98,6 +98,19 @@
    "lastActive": "11/01 01:23",
    "msgsToday": 0,
    "msgsLastHour": 0
+  },
+  {
+   "id": "1d7a5205-b28c-4c2f-a711-90b63ffa19a3",
+   "name": "新聞時事",
+   "zone": "資訊/新聞",
+   "color": "#06b6d4",
+   "shape": "blob",
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1793755795046,
+   "lastActive": "11/04 09:29",
+   "msgsToday": 14,
+   "msgsLastHour": 14
   }
  ]
 }

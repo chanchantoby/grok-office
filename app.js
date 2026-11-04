@@ -10,6 +10,8 @@ const ZONES = [
   { name: '助理',     cx: -7.5, cz: 3.2, w: 9, d: 6, color: 0x6d5bd0, desks: [-10.3, -7.5, -4.7] },
   { name: '內容/影音', cx: 1.6,  cz: 3.2, w: 6.4, d: 6, color: 0x2f7fd8, desks: [0.2, 3.0] },
   { name: '理財/電商', cx: 8.6,  cz: 3.2, w: 6.4, d: 6, color: 0x2fa36b, desks: [7.2, 10.0] },
+  { name: '資訊/新聞', cx: 1.2,  cz: -3.6, w: 4.8, d: 4.6, color: 0x0e7490, desks: [0.0, 2.4] },
+  { name: '其他',     cx: 10.0, cz: -2.4, w: 5.0, d: 4.0, color: 0x6b7280, desks: [8.8, 11.2] },
 ];
 
 // ---------- 基本場景 ----------
@@ -94,8 +96,9 @@ for (let i = 0; i < 6; i++) { const a = i / 6 * Math.PI * 2; box(0.5, 0.45, 0.5,
 box(2.6, 1.4, 0.08, 0xf4f4f6, 1.5, 1.2, -9.1);
 const rugL = box(5, 0.03, 3.5, 0x3d4560, 6.5, 0.02, -6.3);
 
-// 區域地毯 + 標籤
-for (const z of ZONES) {
+// 區域地毯 + 標籤（有 bot 才畫）
+function drawZone(z) {
+  if (z.drawn) return; z.drawn = true;
   box(z.w, 0.04, z.d, z.color, z.cx, 0.02, z.cz, scene, { roughness: 1 });
   const holder = new THREE.Object3D(); holder.position.set(z.cx, 0.1, z.cz + z.d / 2 + 0.5); scene.add(holder);
   label(z.name, 'zone-label', holder);
@@ -202,10 +205,11 @@ function applyStatus(s) {
   for (const a of s.agents) {
     let b = bots.get(a.id);
     if (!b) {
-      const zi = ZONES.findIndex(z => z.name === a.zone);
-      const z = ZONES[zi >= 0 ? zi : 0];
-      const used = [...bots.values()].filter(x => x.data.zone === z.name).length;
-      b = makeDesk(z.desks[used % z.desks.length], z.cz - 0.9, a);
+      const z = ZONES.find(z => z.name === a.zone) || ZONES.find(z => z.name === '其他');
+      drawZone(z);
+      const used = [...bots.values()].filter(x => x.zoneName === z.name).length;
+      b = makeDesk(z.desks[used % z.desks.length], z.cz - 0.9 - 2.8 * Math.floor(used / z.desks.length), a);
+      b.zoneName = z.name;
       bots.set(a.id, b);
     }
     b.data = a;
