@@ -1,0 +1,129 @@
+{
+ "generatedAtMs": 1794673088501,
+ "now": "2026-11-15 00:18:08",
+ "tz": "台北時間 (UTC+8)",
+ "thresholds": {
+  "workingSec": 120,
+  "pendingSec": 900,
+  "recentSec": 1800
+ },
+ "agents": [
+  {
+   "id": "e77055d9-87ba-42d0-9a74-596b5fa59bb5",
+   "name": "疑難雜症",
+   "zone": "助理",
+   "color": "#ef4444",
+   "shape": "blob",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1794632490785,
+   "lastActive": "11/14 13:01",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "10727d28-8a3d-43b5-8a54-f491172d0ae2",
+   "name": "一對一小助理",
+   "zone": "助理",
+   "color": "#374151",
+   "shape": "blob",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1794665473944,
+   "lastActive": "11/14 22:11",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "0ebbe917-60e5-4c12-85ad-dcf0252553d2",
+   "name": "小饅頭CEO",
+   "zone": "助理",
+   "color": "#f3d9a4",
+   "shape": "pumpkin",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1794321415479,
+   "lastActive": "11/10 22:36",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "23fd5827-c81d-47e8-be44-6f0c806beb20",
+   "name": "影片標題流量調查",
+   "zone": "內容/影音",
+   "color": "#8b5cf6",
+   "shape": "pumpkin",
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1794671677702,
+   "lastActive": "11/14 23:54",
+   "msgsToday": 0,
+   "msgsLastHour": 7
+  },
+  {
+   "id": "1a252376-fba8-4cc7-912d-32af87ca04f6",
+   "name": "網站製作",
+   "zone": "內容/影音",
+   "color": "#facc15",
+   "shape": "clover",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1794596182535,
+   "lastActive": "11/14 02:56",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "d8337939-7a00-40a9-8032-18a381c538b9",
+   "name": "毛毛股市",
+   "zone": "理財",
+   "color": "#22c55e",
+   "shape": "blob",
+   "status": "recent",
+   "statusLabel": "剛忙完",
+   "lastActiveMs": 1794672945781,
+   "lastActive": "11/15 00:15",
+   "msgsToday": 14,
+   "msgsLastHour": 23
+  },
+  {
+   "id": "1d7a5205-b28c-4c2f-a711-90b63ffa19a3",
+   "name": "新聞時事",
+   "zone": "資訊/新聞",
+   "color": "#06b6d4",
+   "shape": "blob",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1794618693398,
+   "lastActive": "11/14 09:11",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "607bd451-85b3-485f-87d7-da93710a36de",
+   "name": "教學流程優化",
+   "zone": "其他",
+   "color": "#ec4899",
+   "shape": "cloud",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1794567612817,
+   "lastActive": "11/13 19:00",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  },
+  {
+   "id": "f8749146-f5cc-4aa5-a618-e0dac8c8c395",
+   "name": "Toby、教學流程優化、一對一小助理和小饅頭CEO",
+   "zone": "其他",
+   "color": "#14b8a6",
+   "shape": "",
+   "status": "idle",
+   "statusLabel": "待命",
+   "lastActiveMs": 1793946722896,
+   "lastActive": "11/06 14:32",
+   "msgsToday": 0,
+   "msgsLastHour": 0
+  }
+ ]
+}
